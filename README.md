@@ -22,3 +22,4 @@ npm install react-phone-number-input --save
 # add @/lib/appwrite.config.ts
 
 npm install node-appwrite
+npx @sentry/wizard@latest -i nextjs --url https://sentry.io --org none-l6z --project jsm-carepulse
