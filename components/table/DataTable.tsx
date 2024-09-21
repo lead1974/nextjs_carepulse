@@ -55,7 +55,7 @@ export function DataTable<TData, TValue>({
 
   const rowMatchesSearch = (row: TData) => {
     return columns.some((column) => {
-      // @ts-ignore
+      // @ts-expect-error
       const cellValue = row[column.accessorKey as keyof TData];
       return (
         typeof cellValue === "string" &&
